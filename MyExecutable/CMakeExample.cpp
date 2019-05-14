@@ -9,8 +9,13 @@ int main()
 {
 	cout << "Hello CMake." << endl;
 
-	nlohmann::json t = { {"test","json"} };
+	nlohmann::json t = { 
+		{"test","json"} 
+	};
 
 	cout << "Json: " << t;
+
+
+
 	return 0;
 }

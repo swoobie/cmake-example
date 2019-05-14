@@ -8,3 +8,4 @@ add_executable (CMakeExample "CMakeExample.cpp" "CMakeExample.h")
 
 # TODO: Add tests and install targets if needed.
 target_link_libraries(CMakeExample PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(CMakeExample PRIVATE MyStaticLib::MyStaticLib)
