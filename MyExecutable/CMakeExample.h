@@ -7,3 +7,4 @@
 
 // TODO: Reference additional headers your program requires here.
 #include <nlohmann/json.hpp>
+#include <MyStaticLib.h>

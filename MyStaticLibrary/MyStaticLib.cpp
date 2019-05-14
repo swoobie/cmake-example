@@ -1,5 +1,5 @@
 #include "MyStaticLib.h"
 
-int Add(int x, int y) {
+int MyStaticLib::Add(int x, int y) {
 	return x + y;
 }
